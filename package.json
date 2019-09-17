@@ -1,0 +1,8 @@
+{
+  "name": "shed-fe-litmus",
+  "version": "0.0.1",
+  "description": "Test to check FE env setup",
+  "main": "index.js",
+  "author": "Shaun McWhinnie <shaun@shedcollective.org>",
+  "license": "MIT"
+}
