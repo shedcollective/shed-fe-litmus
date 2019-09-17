@@ -12,7 +12,7 @@
     },
     "scripts": {
         "copy": "node src/copyAndStrip.js",
-        "lint": "eslint src/Candidate.vue --fix; exit 0",
+        "lint": "eslint src/Candidate.vue --fix --format=compact | node src/checkEslintOutput.js",
         "compare": "node src/compareOutput.js",
         "test": "yarn run copy && yarn run lint && yarn run compare"
     },
